@@ -19,6 +19,15 @@
 		713E0898193EE8FB006CA563 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713E0880193EE8FB006CA563 /* UIKit.framework */; };
 		713E08A0193EE8FB006CA563 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 713E089E193EE8FB006CA563 /* InfoPlist.strings */; };
 		713E08A2193EE8FB006CA563 /* AutocorrectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 713E08A1193EE8FB006CA563 /* AutocorrectTests.m */; };
+		713E08AD193EE90E006CA563 /* ACImageScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 713E08AC193EE90E006CA563 /* ACImageScrollViewController.m */; };
+		713E08B7193EE93A006CA563 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 713E08AF193EE93A006CA563 /* 1.jpg */; };
+		713E08B8193EE93A006CA563 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 713E08B0193EE93A006CA563 /* 2.jpg */; };
+		713E08B9193EE93A006CA563 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 713E08B1193EE93A006CA563 /* 3.jpg */; };
+		713E08BA193EE93A006CA563 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 713E08B2193EE93A006CA563 /* 4.jpg */; };
+		713E08BB193EE93A006CA563 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 713E08B3193EE93A006CA563 /* 5.jpg */; };
+		713E08BC193EE93A006CA563 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 713E08B4193EE93A006CA563 /* 6.jpg */; };
+		713E08BD193EE93A006CA563 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 713E08B5193EE93A006CA563 /* 7.jpg */; };
+		713E08BE193EE93A006CA563 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 713E08B6193EE93A006CA563 /* 8.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +57,16 @@
 		713E089D193EE8FB006CA563 /* AutocorrectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutocorrectTests-Info.plist"; sourceTree = "<group>"; };
 		713E089F193EE8FB006CA563 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		713E08A1193EE8FB006CA563 /* AutocorrectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutocorrectTests.m; sourceTree = "<group>"; };
+		713E08AB193EE90E006CA563 /* ACImageScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACImageScrollViewController.h; sourceTree = "<group>"; };
+		713E08AC193EE90E006CA563 /* ACImageScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACImageScrollViewController.m; sourceTree = "<group>"; };
+		713E08AF193EE93A006CA563 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		713E08B0193EE93A006CA563 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		713E08B1193EE93A006CA563 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		713E08B2193EE93A006CA563 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		713E08B3193EE93A006CA563 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		713E08B4193EE93A006CA563 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		713E08B5193EE93A006CA563 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		713E08B6193EE93A006CA563 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +128,9 @@
 			children = (
 				713E088B193EE8FB006CA563 /* ACAppDelegate.h */,
 				713E088C193EE8FB006CA563 /* ACAppDelegate.m */,
+				713E08AB193EE90E006CA563 /* ACImageScrollViewController.h */,
+				713E08AC193EE90E006CA563 /* ACImageScrollViewController.m */,
+				713E08AE193EE93A006CA563 /* Images */,
 				713E088E193EE8FB006CA563 /* Images.xcassets */,
 				713E0883193EE8FB006CA563 /* Supporting Files */,
 			);
@@ -142,6 +164,21 @@
 				713E089E193EE8FB006CA563 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		713E08AE193EE93A006CA563 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				713E08AF193EE93A006CA563 /* 1.jpg */,
+				713E08B0193EE93A006CA563 /* 2.jpg */,
+				713E08B1193EE93A006CA563 /* 3.jpg */,
+				713E08B2193EE93A006CA563 /* 4.jpg */,
+				713E08B3193EE93A006CA563 /* 5.jpg */,
+				713E08B4193EE93A006CA563 /* 6.jpg */,
+				713E08B5193EE93A006CA563 /* 7.jpg */,
+				713E08B6193EE93A006CA563 /* 8.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +257,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				713E08BE193EE93A006CA563 /* 8.jpg in Resources */,
+				713E08BA193EE93A006CA563 /* 4.jpg in Resources */,
+				713E08B9193EE93A006CA563 /* 3.jpg in Resources */,
+				713E08BC193EE93A006CA563 /* 6.jpg in Resources */,
+				713E08B7193EE93A006CA563 /* 1.jpg in Resources */,
 				713E0887193EE8FB006CA563 /* InfoPlist.strings in Resources */,
+				713E08BB193EE93A006CA563 /* 5.jpg in Resources */,
+				713E08BD193EE93A006CA563 /* 7.jpg in Resources */,
+				713E08B8193EE93A006CA563 /* 2.jpg in Resources */,
 				713E088F193EE8FB006CA563 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				713E088D193EE8FB006CA563 /* ACAppDelegate.m in Sources */,
+				713E08AD193EE90E006CA563 /* ACImageScrollViewController.m in Sources */,
 				713E0889193EE8FB006CA563 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
